@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+height:700px ;
+width: 100%;
+position: relative;
+ background-image: url(website22/img12.jpg);
+background-size: cover;
+background-position:50%; 
+position: relative;
+
+
+}
+a.nav-link{
+margin: 20px;
+color: white;
+}
+.carasol{
+    width: 100%;
+    margin-top: 20%;
+}
+
+div.carousel-item h4{
+color: white;
+font-family: "Playwrite GB S", cursive;
+font-size: x-large;
+text-align: center;
+}
+div.carousel-item h1{
+    color: white;
+    font-family: "Lora", serif;
+    font-size: 4rem;
+    text-align: center;
+    }
+    div.carousel-item p{
+        color: white;
+        font-family: "Lora", serif;
+        text-align: center;
+     }
+     div.carousel-item .btn1{
+        /* margin-left: 45%; */
+        margin-top: 20px;
+        padding: 7px;
+        border-color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 15px;
+     }
+ 
+      div.carousel-item .btn1:hover{
+
+        background-color: rgba(255, 255, 255, 0);
+        transition: all 1.8s ease;
+        border: none;
+        transform: scale(1.1);
+
+      }
+      .carousel-item{
+        margin-top: 15%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        padding: 0 20px; 
+        opacity: 0; 
+        animation: slide-up 5s ease-in-out infinite;
+        animation-delay: .5s;
+    }
+    @keyframes slide-up {
+        0% {
+            transform: translate(-50%, 50%); 
+            opacity: 0; 
+        }
+        30% {
+            transform: translate(-50%, -50%); 
+            opacity: 1; 
+        }
+        70% {
+            transform: translate(-50%, -50%); 
+            opacity: 1; 
+        }
+        100% {
+            transform: translate(-50%, 50%); 
+            opacity: 0; 
+        }
+    }
+    .sec1 {
+
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 30px;
+    
+    }
+    .sec1 .container .row {
+        display: flex;
+    }
+    .sec1 .container .row img {
+       margin-left: 45%;
+       margin-bottom: 7%;
+    }
+    .sec1 .container .row h6 {
+        text-align: center;
+        font-family: "Lora", serif;
+        color: rgb(112, 107, 107);
+     }
+     .sec1 .container .row p {
+        text-align: center;
+        font-family: "Lora", serif;
+        color: rgb(161, 151, 151);
+     }
+     
+     
+    
+ 
