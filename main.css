@@ -1,0 +1,146 @@
+.sec1 {
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+
+}
+.sec1 .container .row {
+    display: flex;
+}
+.sec1 .container .row img {
+   margin-left: 45%;
+   margin-bottom: 7%;
+}
+.sec1 .container .row h6 {
+    text-align: center;
+    font-family: "Lora", serif;
+    color: rgb(112, 107, 107);
+ }
+ .sec1 .container .row p {
+    text-align: center;
+    font-family: "Lora", serif;
+    color: rgb(161, 151, 151);
+ }
+ .sec2 {
+
+    width: 100%;
+    background-color: rgb(255, 224, 246);
+    margin-top: 30px;
+   
+
+}
+.sec2 .container .row {
+    display: flex;
+}
+.sec2 .container .row h2 {
+    margin-top: 10%;
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+    color: rgb(0, 0, 0);
+ }
+ .sec2 .container .row h1 {
+    text-align: center;
+    font-family: "Lora", serif;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+ }
+ .sec2 .container .row img{
+  margin-top: 10%;
+
+ }
+ .sec2 .container .row p{
+   text-align: center;
+   margin-top: 10px;
+   color: rgb(170, 166, 166);
+   font-family: 'Courier New', Courier, monospace;
+   }
+   .sec2 .container .row img:hover{
+    opacity: 80%;
+    transition: all 1s ease;
+    transform: scale(1.05);
+   
+   }
+   .sec3{
+    width: 100%;
+    background-image: url("website22/img12.jpg");
+   }
+
+   .counter {
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fadeIn 1s ease-in;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.counter2 {
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fadeIn 1s ease-in;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.counter3 {
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fadeIn 1s ease-in;
+    color: white;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.counter4 {
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    animation: fadeIn 1s ease-in;
+    color: white;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+   
+   @media screen and (max-width:768px) {
+    .sec2 .container .row img{
+     width: 100%;
+        
+    }
+    .sec3 .container .row {
+      display: none;
+           
+       }
+}
+
+ 
+
+
