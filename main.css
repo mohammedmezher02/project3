@@ -72,6 +72,68 @@
     animation: fadeIn 1s ease-in;
     color: white;
 }
+.sec4 {
+
+    width: 100%;
+    
+    margin-top: 30px;
+
+
+}
+
+.sec4 .container .row {
+    display: flex;
+    justify-content: space-between;
+}
+button.btn.btn-outline-light{
+color:rgb(36, 35, 35);
+    border-color:black;
+}
+
+.sec4 .container .row h3 {
+    
+  
+    font-family: "Playwrite GB S", cursive;
+    color: rgb(0, 0, 0);
+
+}
+.sec4 .container .row h1 {
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-family: "Playwrite GB S", cursive;
+    color: rgb(0, 0, 0);
+
+}
+.sec4 .container .row p {
+  
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+     width: 320px;
+
+}
+#img{
+
+background-image: url("website22/img16.jpg");
+background-size: cover;
+background-position: 50%;
+
+}
+.sec5{
+height: 600px;
+width: 95%;
+background-image: url("website22/img15.jpg");
+background-size: cover;
+background-position: 50%;
+margin-left: 2%;
+margin-top: 10%;
+
+}
+.carousel-inner{
+
+    margin-top: 10%;
+    text-align: center;
+}
+
 
 @keyframes fadeIn {
     from {
