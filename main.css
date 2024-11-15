@@ -133,6 +133,112 @@ margin-top: 10%;
     margin-top: 10%;
     text-align: center;
 }
+.sec6{
+ width: 100%;
+ background-color: white;
+  text-align: center;
+
+}
+.sec6 h4{
+
+    font-family: "Playwrite GB S", cursive;
+    color: rgb(0, 0, 0);
+    margin-top: 8%;
+}
+.sec6 h2{
+
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    
+}
+.sec7{
+width: 100%;
+margin-top: 8%;
+text-align: center;
+background-image: url(website22/img16.jpg);
+background-size: cover;
+background-position: 50%;
+}
+.sec7 img {
+
+    border: none;
+    border-radius: 10px;
+}
+.sec7 img:hover{
+    opacity: 80%;
+    transition: all 1s ease;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 50%;
+}
+.sec7 h6{
+    margin-top: 8px ;
+    font-weight: 700;
+    color: rgb(29, 28, 28);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.sec7 p{
+    margin-top: 8px ;
+    color: rgb(48, 46, 46);
+}
+
+.sec7 a{
+margin: 8px;
+    
+}
+.sec7 a i:hover{
+
+transform: scale(1.2);
+transition: all ease 1s;
+opacity: 40%;
+}
+.sec8 {
+    margin-top: 4%;
+    width: 100%;
+    background-color: rgba(255, 192, 181, 0.671);
+    text-align: center;
+   
+}
+.sec8 h3{
+margin-top: 3%;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.sec8 img {
+margin-top: 5%;
+height: 300px;
+width: 300px;
+padding:3%;
+
+}
+.sec8 img:hover {
+transition: all ease 1s;
+opacity: 10%;
+}
+.sec8 input{
+border: none;
+width: 450px;
+height: 30px;
+padding: 10px;
+
+}
+.sec8 button{
+
+border: none;
+padding: 7px;
+background-color: black;
+color: white;
+font-size: smaller;
+font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+.sec8 button:hover{
+opacity: 90%;
+background-color: rgb(36, 35, 35);
+
+}
+
 
 
 @keyframes fadeIn {
