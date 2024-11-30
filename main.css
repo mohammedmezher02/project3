@@ -307,7 +307,32 @@ background-color: rgb(36, 35, 35);
       display: none;
            
        }
+       .sec4 .container .row h3 {
+        display: none;
+             
+         }
+         
 }
+@media screen and (max-width:425px) {
+
+    .sec4 .container .row p {
+        display: none;
+             
+         }
+         .sec4 .container .row h1 {
+            display: none;
+                 
+             }
+             .sec4 .container .row button {
+               margin-left: 40%;
+               margin-bottom: 2rem;
+                 }
+
+
+
+}
+
+
 
  
 
